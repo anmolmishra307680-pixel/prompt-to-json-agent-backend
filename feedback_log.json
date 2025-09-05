@@ -1,0 +1,180 @@
+[
+  {
+    "spec_name": "building",
+    "timestamp": "2025-09-05T10:50:59.110088",
+    "iterations": [
+      {
+        "iteration": 1,
+        "before_spec": {
+          "type": "building",
+          "material": [
+            "wood",
+            "brick"
+          ],
+          "dimensions": null,
+          "color": null,
+          "purpose": null,
+          "extras": null
+        },
+        "score_before": 8,
+        "reward": 1,
+        "fixes_suggested": [
+          "Add building dimensions (consider: 20x15x8m for office)",
+          "Add purpose or use case description.",
+          "Add specific dimensions (length x width x height) with appropriate units",
+          "Consider purpose: residential, commercial, industrial"
+        ],
+        "after_spec": {
+          "type": "building",
+          "material": [
+            "wood",
+            "brick"
+          ],
+          "dimensions": "20x15x8m",
+          "color": null,
+          "purpose": "commercial use",
+          "extras": null
+        },
+        "score_after": 10,
+        "improvement": true
+      },
+      {
+        "iteration": 2,
+        "before_spec": {
+          "type": "building",
+          "material": [
+            "wood",
+            "brick"
+          ],
+          "dimensions": "20x15x8m",
+          "color": null,
+          "purpose": "commercial use",
+          "extras": null
+        },
+        "score_before": 10,
+        "reward": 1,
+        "fixes_suggested": [
+          "Popular colors for building: white, gray, brown"
+        ],
+        "after_spec": {
+          "type": "building",
+          "material": [
+            "wood",
+            "brick"
+          ],
+          "dimensions": "20x15x8m",
+          "color": "gray",
+          "purpose": "commercial use",
+          "extras": null
+        },
+        "score_after": 10,
+        "improvement": false
+      }
+    ]
+  },
+  {
+    "spec_name": "car",
+    "timestamp": "2025-09-05T10:50:59.111088",
+    "iterations": [
+      {
+        "iteration": 1,
+        "before_spec": {
+          "type": "car",
+          "material": [
+            "aluminum",
+            "steel"
+          ],
+          "dimensions": "4.5x1.8x1.4m",
+          "color": "red",
+          "purpose": "racing",
+          "extras": "aerodynamic design"
+        },
+        "score_before": 10,
+        "reward": 1,
+        "fixes_suggested": [],
+        "after_spec": {
+          "type": "car",
+          "material": [
+            "aluminum",
+            "steel"
+          ],
+          "dimensions": "4.5x1.8x1.4m",
+          "color": "red",
+          "purpose": "racing",
+          "extras": "aerodynamic design"
+        },
+        "score_after": 10,
+        "improvement": false
+      }
+    ]
+  },
+  {
+    "spec_name": "drone",
+    "timestamp": "2025-09-05T10:50:59.111088",
+    "iterations": [
+      {
+        "iteration": 1,
+        "before_spec": {
+          "type": "drone",
+          "material": [
+            "carbon fiber"
+          ],
+          "dimensions": null,
+          "color": null,
+          "purpose": null,
+          "extras": null
+        },
+        "score_before": 8,
+        "reward": 1,
+        "fixes_suggested": [
+          "Add drone dimensions (typical: 50x50x15cm for quadcopter)",
+          "Add purpose or use case description.",
+          "Consider typical drone dimensions: 50x50x15cm",
+          "Consider purpose: surveillance, delivery, photography"
+        ],
+        "after_spec": {
+          "type": "drone",
+          "material": [
+            "carbon fiber"
+          ],
+          "dimensions": "50x50x15cm",
+          "color": null,
+          "purpose": "surveillance",
+          "extras": null
+        },
+        "score_after": 10,
+        "improvement": true
+      },
+      {
+        "iteration": 2,
+        "before_spec": {
+          "type": "drone",
+          "material": [
+            "carbon fiber"
+          ],
+          "dimensions": "50x50x15cm",
+          "color": null,
+          "purpose": "surveillance",
+          "extras": null
+        },
+        "score_before": 10,
+        "reward": 1,
+        "fixes_suggested": [
+          "Popular colors for drone: white, gray, black"
+        ],
+        "after_spec": {
+          "type": "drone",
+          "material": [
+            "carbon fiber"
+          ],
+          "dimensions": "50x50x15cm",
+          "color": "black",
+          "purpose": "surveillance",
+          "extras": null
+        },
+        "score_after": 10,
+        "improvement": false
+      }
+    ]
+  }
+]

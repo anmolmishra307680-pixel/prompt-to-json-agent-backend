@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "spec_score": 10,
+  "validation_error": null,
+  "name": "car",
+  "spec": {
+    "type": "car",
+    "material": [
+      "aluminum",
+      "steel"
+    ],
+    "dimensions": "4.5x1.8x1.4m",
+    "color": "red",
+    "purpose": "racing",
+    "extras": "aerodynamic design"
+  },
+  "timestamp": "2025-09-05T12:41:55.347210"
+}

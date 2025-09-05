@@ -1,0 +1,24 @@
+{
+  "valid": false,
+  "spec_score": 0,
+  "validation_error": "2 validation errors for Spec\ntype\n  Field required [type=missing, input_value={'prompt': 'create a mode...epth': 8, 'height': 4}}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing\nmaterial\n  Field required [type=missing, input_value={'prompt': 'create a mode...epth': 8, 'height': 4}}}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.11/v/missing",
+  "name": "example2",
+  "spec": {
+    "prompt": "create a modern office building with glass facade",
+    "expected_spec": {
+      "title": "create a modern office building with glass facade",
+      "type": "building",
+      "materials": [
+        "concrete",
+        "glass"
+      ],
+      "dimensions": {
+        "unit": "m",
+        "width": 10,
+        "depth": 8,
+        "height": 4
+      }
+    }
+  },
+  "timestamp": "2025-09-05T12:41:55.349210"
+}

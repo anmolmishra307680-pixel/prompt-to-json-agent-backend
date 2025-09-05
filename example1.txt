@@ -1,0 +1,11 @@
+# Report: example1
+Time: 2025-09-05T12:41:55.349210
+Score: 0/10
+Valid: False
+Notes: 2 validation errors for Spec
+type
+  Field required [type=missing, input_value={'prompt': 'design a smal...epth': 8, 'height': 4}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+material
+  Field required [type=missing, input_value={'prompt': 'design a smal...epth': 8, 'height': 4}}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing

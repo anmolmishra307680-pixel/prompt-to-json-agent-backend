@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "spec_score": 10,
+  "validation_error": null,
+  "name": "gearbox",
+  "spec": {
+    "type": "gearbox",
+    "material": [
+      "steel"
+    ],
+    "dimensions": "15x15cm",
+    "color": null,
+    "purpose": "automotive use",
+    "extras": null
+  },
+  "timestamp": "2025-09-05T12:41:55.351212"
+}

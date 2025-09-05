@@ -1,0 +1,46 @@
+{
+  "valid": true,
+  "spec_score": 8,
+  "validation_error": null,
+  "completeness_score": 40.0,
+  "field_coverage": {
+    "type": true,
+    "material": true,
+    "dimensions": false,
+    "purpose": false,
+    "color": false
+  },
+  "name": "prompt_generated",
+  "spec": {
+    "type": "table",
+    "material": [
+      "wood",
+      "metal"
+    ],
+    "dimensions": null,
+    "color": null,
+    "purpose": null,
+    "extras": null,
+    "confidence": 10,
+    "semantic_quality": 1.0
+  },
+  "prompt": "Test cleanup - design a simple table",
+  "timestamp": "2025-09-05T12:50:25.305630",
+  "llm_feedback": {
+    "quality_analysis": {
+      "completeness": 50.0,
+      "realism": 0,
+      "domain_compliance": 0,
+      "suggestions": []
+    },
+    "critiques": [
+      "Dimensions needed for manufacturing feasibility and cost estimation.",
+      "Purpose definition helps optimize design parameters and material selection for intended use case."
+    ],
+    "improvement_suggestions": [
+      "Add specific dimensions (length x width x height) with appropriate units",
+      "Consider purpose: dining, office work, display"
+    ],
+    "overall_assessment": "Good specification (50% complete) with minor improvements needed."
+  }
+}

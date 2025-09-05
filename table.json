@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "spec_score": 10,
+  "validation_error": null,
+  "name": "table",
+  "spec": {
+    "type": "table",
+    "material": [
+      "wood"
+    ],
+    "dimensions": "180x90cm",
+    "color": "brown",
+    "purpose": "dining",
+    "extras": null
+  },
+  "timestamp": "2025-09-05T12:41:55.352211"
+}

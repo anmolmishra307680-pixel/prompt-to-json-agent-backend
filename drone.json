@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "spec_score": 8,
+  "validation_error": null,
+  "name": "drone",
+  "spec": {
+    "type": "drone",
+    "material": [
+      "carbon fiber"
+    ],
+    "dimensions": null,
+    "color": null,
+    "purpose": null,
+    "extras": null
+  },
+  "timestamp": "2025-09-05T12:41:55.347210"
+}
